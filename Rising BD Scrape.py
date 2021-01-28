@@ -21,7 +21,7 @@ id = str(4999+row)
 row = str(row)
 
 # Connect to page
-url ="https://www.risingbd.com/entertainment/news/391609"
+url ="https://www.risingbd.com/entertainment/news/391609"   # Link of news page
 req = Request(url, headers={'User-Agent': 'XYZ/3.0'})
 webpage = urlopen(req, timeout=10).read()
 session = HTMLSession()
